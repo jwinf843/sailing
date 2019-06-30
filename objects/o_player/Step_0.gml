@@ -57,17 +57,16 @@ if keyboard_check(vk_left)
 	{
 		hspeed += 0.2	
 	}
-// var gravity, gravity_direction
+
+var g, gdir
 
 with (o_planet)
 	{
 	// This code assumes that every planet has a "mass" variable
-	gravity = mass / sqr(point_distance(x, y, o_player.x, o_player.y))
-	gravity_direction = point_direction(o_player.x, o_player.y, x, y)		
-	}
-	
-	
-with(self)
-	{
-	motion_add(gravity_direction, gravity)	
+	g = mass / sqr(point_distance(x, y, o_player.x, o_player.y))
+	gdir = point_direction(o_player.x, o_player.y, x, y)		
+	with(o_player)
+		{
+		motion_add(gdir, g)	
+		}
 	}
