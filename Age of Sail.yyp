@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "09922fe2-2ed4-49cc-9faa-00e72bf1e249",
+            "Value": {
+                "id": "b29fbb61-9318-4cd7-b0d9-f9679024ac75",
+                "resourcePath": "sprites\\s_planet\\s_planet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1e308076-6eba-419b-9c83-e888ac5ed23d",
             "Value": {
                 "id": "bbbf74bf-7cfe-4d6e-afbc-a240b5e2c8ba",
@@ -60,6 +68,14 @@
                 "id": "cdc089d5-502c-4e7e-8491-c3da9e22615e",
                 "resourcePath": "views\\6e793d28-545e-42b5-94cd-1ff3b450a26a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7faa2962-d70a-4c2c-8362-8a65c62ad319",
+            "Value": {
+                "id": "6c6aaa0b-51cb-438b-b67d-23687119ae7a",
+                "resourcePath": "objects\\o_planet\\o_planet.yy",
+                "resourceType": "GMObject"
             }
         },
         {
