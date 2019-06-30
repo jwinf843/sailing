@@ -60,8 +60,6 @@ if keyboard_check(vk_up)
 		vspeed -= 0.02	
 	}
 
-image_angle = direction
-
 var g, gdir
 
 with (o_planet)
@@ -74,4 +72,7 @@ with (o_planet)
 		motion_add(gdir, g)	
 		}
 	}
+	
+
+
 
