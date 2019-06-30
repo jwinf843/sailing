@@ -40,23 +40,27 @@ if keyboard_check(vk_control)
 	}
 */	
 
+
+
 // ORBITAL CONTROLS
-if keyboard_check(vk_up)
-	{
-		vspeed -= 0.2	
-	}
-if keyboard_check(vk_down)
-	{
-		vspeed += 0.2	
-	}
 if keyboard_check(vk_right)
 	{
-		hspeed += 0.2	
+		hspeed += 0.02	
 	}
 if keyboard_check(vk_left)
 	{
-		hspeed += 0.2	
+		hspeed -= 0.02	
 	}
+if keyboard_check(vk_down)
+	{
+		vspeed += 0.02	
+	}
+if keyboard_check(vk_up)
+	{
+		vspeed -= 0.02	
+	}
+
+image_angle = direction
 
 var g, gdir
 
@@ -70,3 +74,4 @@ with (o_planet)
 		motion_add(gdir, g)	
 		}
 	}
+
