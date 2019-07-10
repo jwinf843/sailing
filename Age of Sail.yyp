@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "19cc4670-a9a0-44e7-a83a-940a7d159675",
+            "Value": {
+                "id": "72e9ead5-97d8-4648-ad16-fda8718d60e5",
+                "resourcePath": "objects\\o_moon\\o_moon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1e308076-6eba-419b-9c83-e888ac5ed23d",
             "Value": {
                 "id": "bbbf74bf-7cfe-4d6e-afbc-a240b5e2c8ba",
@@ -191,6 +199,14 @@
             }
         },
         {
+            "Key": "f1fabdce-cc59-4d73-9ba0-db67872740ff",
+            "Value": {
+                "id": "f0c3c0e8-5908-4d51-be35-b525c2c3cfe9",
+                "resourcePath": "scripts\\scr_planetary_mechanics\\scr_planetary_mechanics.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f25fc484-5de9-4a93-aee5-226227b511a3",
             "Value": {
                 "id": "7fdca5fc-a89f-49a4-bdff-caae4fc51767",
@@ -232,7 +248,7 @@
         }
     ],
     "script_order": [
-        
+        "f1fabdce-cc59-4d73-9ba0-db67872740ff"
     ],
     "tutorial": ""
 }
