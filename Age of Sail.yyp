@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "421ace48-c776-44cf-9138-3ee29e3ac731",
+            "Value": {
+                "id": "30679631-1513-4b55-8350-33d5a90825b3",
+                "resourcePath": "sprites\\s_moon\\s_moon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5a07d75d-3e8c-47f5-9016-ea8886e795ec",
             "Value": {
                 "id": "6ceb535d-9a56-4d8c-8e71-0b9eb3a3db5f",

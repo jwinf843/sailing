@@ -73,6 +73,7 @@ with (o_planet)
 		}
 	}
 	
+image_angle = direction
 
 
 
