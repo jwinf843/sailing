@@ -7,11 +7,14 @@
 // You can write your code in this editor
 
 var cx, cy, crad, clen, cdir, cnext, nx, ny
+
+a = argument0
+body = argument1
 vel = argument2
 
 // Retrieve variables for later use:
-cx = o_planet.x
-cy = o_planet.y
+cx = body.x
+cy = body.y
 crad = point_distance(cx, cy, x, y)
 
 // Find length of the circle
@@ -28,7 +31,7 @@ nx = cx + lengthdir_x(crad, cnext)
 ny = cy + lengthdir_y(crad, cnext)
 
 // Set speed vector to reach that point in next step
-hspeed = nx - x
-vspeed = ny - y
+self.hspeed = nx - x
+self.vspeed = ny - y
 
 image_angle = direction + 90

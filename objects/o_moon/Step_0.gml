@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 var cx, cy, crad, clen, cdir, cnext, nx, ny
-vel = 5
+vel = 1
 
 // Retrieve variables for later use:
 cx = o_planet.x
@@ -26,4 +26,4 @@ ny = cy + lengthdir_y(crad, cnext)
 hspeed = nx - x
 vspeed = ny - y
 
-image_angle = direction + 90
+image_angle = direction + 60
