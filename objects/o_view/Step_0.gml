@@ -7,3 +7,8 @@ y = o_player.y
 
 
 // Follow the target?
+target = noone
+
+x = target.x
+y = target.y
+
