@@ -1,14 +1,19 @@
 /// @description Set x & y coords
 
-
-// Follow the player
-x = o_player.x
-y = o_player.y
-
-
-// Follow the target?
+/// The camera view follows the target
 target = noone
 
-x = target.x
-y = target.y
+// Set Target
+if !instance_exists(target){
+	target = o_player	
+}
 
+if keyboard_check(ord("C")){
+	target = o_player	
+}
+
+// Follow the target
+if target != noone {
+	x = target.x
+	y = target.y
+}
