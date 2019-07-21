@@ -1,10 +1,7 @@
 /// @description Initialize Zoom
 
 // Initialize Settings
-zoom = 1
-zoom_min = .1
-zoom_max = 10
+zoom_level = 1
+default_zoom_width = camera_get_view_width(view_camera[0])
+default_zoom_height = camera_get_view_height(view_camera[0])
 
-// Standard Settings at Zoom 1
-base_width = 1280
-base_height = 720

@@ -1,6 +1,7 @@
 /// @description Initialize the player
 
-// You can write your code in this editor
+// Set DEBUG
+global.DEBUG = true
 
 direction = image_angle
 
