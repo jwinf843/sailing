@@ -15,7 +15,7 @@ else
 
 if keyboard_check(ord("C"))
 	{
-	target = o_player	
+	target = o_player
 	}
 
 // Follow the target

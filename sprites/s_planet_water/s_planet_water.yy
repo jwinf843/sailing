@@ -2,7 +2,7 @@
     "id": "09922fe2-2ed4-49cc-9faa-00e72bf1e249",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "s_planet",
+    "name": "s_planet_water",
     "For3D": false,
     "HTile": false,
     "VTile": false,
