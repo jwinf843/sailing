@@ -1,16 +1,21 @@
 /// @description View Controller
 
 /// The camera view follows the target
-target = noone
+target = o_player
+x = target.x
+y = target.y
 
 // Set Target
-if !instance_exists(target)
+if instance_exists(target)
 	{
-	target = o_player	
+	last_x = target.x	// Get last known x position
+	last_y = target.y	// Get last known y position
 	}
 else 
 	{
-	target = noone
+	target = o_planet
+	x = last_x
+	y = last_y
 	}
 
 if keyboard_check(ord("C"))
@@ -24,15 +29,7 @@ if !instance_exists(target)
 	x = camera_get_view_x(view_camera[0])
 	y = camera_get_view_y(view_camera[0])
 	}
-
-if target != noone 
-	{
-	x = target.x
-	y = target.y
-	}
-
-
-
+	
 
 /* Optional Code for Panning with Keyboard	
 var pan_speed = 10
