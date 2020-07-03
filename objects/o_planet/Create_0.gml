@@ -1,3 +1,3 @@
 /// @description Initialize Planet
 
-mass = 750
+mass = 250
